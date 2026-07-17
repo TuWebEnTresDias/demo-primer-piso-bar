@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Primer Piso Bar - Bar underground en Microcentro, Buenos Aires. Música en vivo, bandas under y noches que no se olvidan. Viernes y sábados desde las 20hs.">
+    <meta name="keywords" content="bar, microcentro, buenos aires, rock, bandas en vivo, underground, noche">
+    <title>Primer Piso Bar | Bar Underground en Microcentro, Buenos Aires</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_r4rGugzYs8nJt2yLB38P4q6-GM_l-7_OSgzPJ5Vf5hfZZSBD-HUzkm8E&s=10">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="#hero" class="header__logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_r4rGugzYs8nJt2yLB38P4q6-GM_l-7_OSgzPJ5Vf5hfZZSBD-HUzkm8E&s=10" alt="Primer Piso Bar Logo" class="header__logo-img">
+                <span class="header__logo-text">Primer Piso</span>
+            </a>
+            
+            <nav class="header__nav" id="nav">
+                <a href="#about" class="header__nav-link">El Lugar</a>
+                <a href="#menu" class="header__nav-link">Carta</a>
+                <a href="#events" class="header__nav-link">Eventos</a>
+                <a href="#gallery" class="header__nav-link">Galería</a>
+                <a href="#contact" class="header__nav-link header__nav-link--cta">Reservar</a>
+            </nav>
+            
+            <button class="header__hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn4MYmgHN7YjlTxWf9xQ_PAdNpJbbMvLaIbdhoNh8tvitp7mNQ1eHen-UcVzMGlkX7NEiTkQhmZCDBvUOIxWv5wtko-mZ2HZ1b3WKUnHuh-6UxV_lSecxhYrOxkPcOO0PolWg5gXxYC2Wsa=s1360-w1360-h1020-rw" alt="Primer Piso Bar Interior" class="hero__bg-img">
+            <div class="hero__overlay"></div>
+        </div>
+        
+        <div class="hero__content">
+            <p class="hero__subtitle animate-in">Microcentro, Buenos Aires</p>
+            <h1 class="hero__title animate-in">
+                <span class="hero__title-line">La noche</span>
+                <span class="hero__title-line hero__title-line--accent">tiene su</span>
+                <span class="hero__title-line">propio piso</span>
+            </h1>
+            <p class="hero__description animate-in">Donde el rock underground encuentra su refugio. Bandas en vivo, tragos honestos y una atmósfera que no vas a encontrar en ningún otro lado.</p>
+            
+            <div class="hero__cta animate-in">
+                <a href="#menu" class="btn btn--primary">Ver la Carta</a>
+                <a href="https://wa.me/5491157250961?text=Hola! Quiero hacer una reserva en Primer Piso Bar" class="btn btn--secondary" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    Reservar Mesa
+                </a>
+            </div>
+            
+            <div class="hero__scroll animate-in">
+                <span>Scroll</span>
+                <div class="hero__scroll-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Diferenciales -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-header__label">El Lugar</span>
+                <h2 class="section-header__title">Una cueva de rock <br>en el corazón del Microcentro</h2>
+            </div>
+            
+            <div class="about__grid">
+                <div class="about__item animate-in">
+                    <div class="about__icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/>
+                        </svg>
+                    </div>
+                    <h3 class="about__title">Música en Vivo</h3>
+                    <p class="about__text">Bandas under, propuestas nuevas y sonidos que no vas a escuchar en ningún bar mainstream. Acá se presenta la escena que importa.</p>
+                </div>
+                
+                <div class="about__item animate-in">
+                    <div class="about__icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="about__title">Ambiente Único</h3>
+                    <p class="about__text">Neones, humo y energía cruda. Un espacio industrial que se siente auténtico desde que entrás por la puerta hasta que salís al amanecer.</p>
+                </div>
+                
+                <div class="about__item animate-in">
+                    <div class="about__icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="about__title">La Gente</h3>
+                    <p class="about__text">Sin pretensiones, sin caretas. Gente que viene por la música, por las birras y por pasarla bien. Así de simple, así de bueno.</p>
+                </div>
+            </div>
+            
+            <div class="about__image animate-in">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlQGYNexs18fQiwvYM7QzfRSDrKJoeGOxzJH98kODTqFcZeTg1ZidoO6djEu8N8662y0zsenXW0CJ1EjXd-JzysgqXGDrpHi_Mt198zO1J0N9QDsbVeQr0GH5-yC1Q1Jo8EMc=s1360-w1360-h1020-rw" alt="Banda tocando en Primer Piso Bar" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-header__label">La Carta</span>
+                <h2 class="section-header__title">Tragos, birras y algo más</h2>
+                <p class="section-header__subtitle">Precios honestos para noches intensas</p>
+            </div>
+            
+            <div class="menu__tabs animate-in">
+                <button class="menu__tab menu__tab--active" data-tab="tragos">Tragos Clásicos</button>
+                <button class="menu__tab" data-tab="cervezas">Cervezas</button>
+                <button class="menu__tab" data-tab="shots">Shooters</button>
+                <button class="menu__tab" data-tab="sin-alcohol">Sin Alcohol</button>
+            </div>
+            
+            <div class="menu__content">
+                <!-- Tragos Clásicos -->
+                <div class="menu__category menu__category--active" id="tragos">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Fernet con Cola</h4>
+                            <span class="menu__item-price">$3.200</span>
+                        </div>
+                        <p class="menu__item-desc">La clásica italiana con cola bien fría. Doble o simple, como te guste.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Gin Tónico</h4>
+                            <span class="menu__item-price">$4.500</span>
+                        </div>
+                        <p class="menu__item-desc">Gin artesanal, tónica premium y un toque de eneldo. Refrescante y directo.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Old Fashioned</h4>
+                            <span class="menu__item-price">$5.800</span>
+                        </div>
+                        <p class="menu__item-desc">Bourbon, azúcar, angostura y una cáscara de naranja. Para los que saben lo que quieren.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Hugo</h4>
+                            <span class="menu__item-price">$3.800</span>
+                        </div>
+                        <p class="menu__item-desc">Flor de saúco, prosecco y limón. Ligero, frutal y peligrosamente facil de tomar.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Cuba Libre</h4>
+                            <span class="menu__item-price">$3.500</span>
+                        </div>
+                        <p class="menu__item-desc">Ron, cola y limón. Simple, efectivo, eterno.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Negroni</h4>
+                            <span class="menu__item-price">$5.200</span>
+                        </div>
+                        <p class="menu__item-desc">Gin, Campari y vermut rojo. Amargo, complejo y adictivo.</p>
+                    </div>
+                </div>
+                
+                <!-- Cervezas -->
+                <div class="menu__category" id="cervezas">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Rubia del País</h4>
+                            <span class="menu__item-price">$1.800</span>
+                        </div>
+                        <p class="menu__item-desc">Lager bien fría, como Dios manda. Perfecta para acompañar una banda.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">IPA Artesanal</h4>
+                            <span class="menu__item-price">$2.800</span>
+                        </div>
+                        <p class="menu__item-desc">Amarga, cítrica y con cuerpo. Para los que no tienen miedo al lúpulo.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Stout</h4>
+                            <span class="menu__item-price">$2.900</span>
+                        </div>
+                        <p class="menu__item-desc">Oscura, tostada y con notas a café. Ideal para las noches frías.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Corona</h4>
+                            <span class="menu__item-price">$2.200</span>
+                        </div>
+                        <p class="menu__item-desc">Con limón, porque siempre funciona.</p>
+                    </div>
+                </div>
+                
+                <!-- Shots -->
+                <div class="menu__category" id="shots">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Jägerbomb</h4>
+                            <span class="menu__item-price">$2.500</span>
+                        </div>
+                        <p class="menu__item-desc">Jägermeister + Red Bull. El clásico que nunca falla.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Tequila</h4>
+                            <span class="menu__item-price">$2.000</span>
+                        </div>
+                        <p class="menu__item-desc">Silver, sal y limón. Directo al grano.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Vodka Shot</h4>
+                            <span class="menu__item-price">$1.800</span>
+                        </div>
+                        <p class="menu__item-desc">Bien frío, sin vueltas.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Fernet Shot</h4>
+                            <span class="menu__item-price">$1.500</span>
+                        </div>
+                        <p class="menu__item-desc">Para los valientes. Doble dosis de amargor.</p>
+                    </div>
+                </div>
+                
+                <!-- Sin Alcohol -->
+                <div class="menu__category" id="sin-alcohol">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Limonada Natural</h4>
+                            <span class="menu__item-price">$1.500</span>
+                        </div>
+                        <p class="menu__item-desc">Casera, con hojas de menta y hielo. Refrescante de verdad.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Coca Cola</h4>
+                            <span class="menu__item-price">$1.200</span>
+                        </div>
+                        <p class="menu__item-desc">La de siempre, bien fría.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Agua Mineral</h4>
+                            <span class="menu__item-price">$900</span>
+                        </div>
+                        <p class="menu__item-desc">Con o sin gas. Hidratá entre tragos.</p>
+                    </div>
+                    
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h4 class="menu__item-name">Red Bull</h4>
+                            <span class="menu__item-price">$2.200</span>
+                        </div>
+                        <p class="menu__item-desc">Para aguantar hasta el amanecer.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu__cta animate-in">
+                <p>¿No encontrás lo que buscás?</p>
+                <a href="https://wa.me/5491157250961?text=Hola! Quiero consultar por opciones del menú de Primer Piso Bar" class="btn btn--primary" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eventos -->
+    <section class="events" id="events">
+        <div class="events__bg">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWks3bfSdJJJWI123DZe7n48efv3i3dPMODelVYdUKaveuM_7PS_Qd8mwtGCUIR562TsWJ-vysCKZGCG1ISv0R-5g8OCoie8gKDIEwIz4ODC-aOgDxO-xHtDGv73CBU3gfQz1wR_=s1360-w1360-h1020-rw" alt="Barra de Primer Piso Bar" loading="lazy">
+            <div class="events__overlay"></div>
+        </div>
+        
+        <div class="container">
+            <div class="events__content animate-in">
+                <span class="section-header__label">Próximos Eventos</span>
+                <h2 class="events__title">Noches de Bandas Under</h2>
+                <p class="events__text">Todos los viernes y sábados, desde las 20hs hasta el amanecer. Propuestas nuevas, sonidos pesados y la energía que solo encuentra en una cueva de rock de verdad.</p>
+                
+                <div class="events__schedule">
+                    <div class="events__day">
+                        <span class="events__day-name">Viernes</span>
+                        <span class="events__day-time">20:00 - 06:00</span>
+                    </div>
+                    <div class="events__divider"></div>
+                    <div class="events__day">
+                        <span class="events__day-name">Sábado</span>
+                        <span class="events__day-time">20:00 - 06:00</span>
+                    </div>
+                </div>
+                
+                <a href="https://wa.me/5491157250961?text=Hola! Quiero saber qué bandas tocan este finde en Primer Piso Bar" class="btn btn--primary" target="_blank" rel="noopener">Consultar Bandas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-header__label">Galería</span>
+                <h2 class="section-header__title">Así se vive acá</h2>
+            </div>
+            
+            <div class="gallery__grid">
+                <div class="gallery__item gallery__item--large animate-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn4MYmgHN7YjlTxWf9xQ_PAdNpJbbMvLaIbdhoNh8tvitp7mNQ1eHen-UcVzMGlkX7NEiTkQhmZCDBvUOIxWv5wtko-mZ2HZ1b3WKUnHuh-6UxV_lSecxhYrOxkPcOO0PolWg5gXxYC2Wsa=s1360-w1360-h1020-rw" alt="Interior de Primer Piso Bar" loading="lazy">
+                    <div class="gallery__item-overlay">
+                        <span>El Ambiente</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item animate-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWks3bfSdJJJWI123DZe7n48efv3i3dPMODelVYdUKaveuM_7PS_Qd8mwtGCUIR562TsWJ-vysCKZGCG1ISv0R-5g8OCoie8gKDIEwIz4ODC-aOgDxO-xHtDGv73CBU3gfQz1wR_=s1360-w1360-h1020-rw" alt="La Barra" loading="lazy">
+                    <div class="gallery__item-overlay">
+                        <span>La Barra</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item animate-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlQGYNexs18fQiwvYM7QzfRSDrKJoeGOxzJH98kODTqFcZeTg1ZidoO6djEu8N8662y0zsenXW0CJ1EjXd-JzysgqXGDrpHi_Mt198zO1J0N9QDsbVeQr0GH5-yC1Q1Jo8EMc=s1360-w1360-h1020-rw" alt="Banda en Vivo" loading="lazy">
+                    <div class="gallery__item-overlay">
+                        <span>En Vivo</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item animate-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlg_gakdoB5Z1-rdwIJCJMI47bNTCHDan6IWd_UPcIm6nP2w1YUWJ0dOXXrsOLXSF28-EGay58_y2KoMTyGWfrZM0uroei1wNaAwfdVim1xdJFP5wqZKJzXloHqUiHBgOdoAQqO6Cva2Q=s1360-w1360-h1020-rw" alt="Balcón" loading="lazy">
+                    <div class="gallery__item-overlay">
+                        <span>El Balcón</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item gallery__item--wide animate-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn0Pjg8E8ftewwauUVMLg60tdQ_pjCykOGTiGsTq-x6t9QcHma6Yy9GqYI4y_8IIn8Pk8OuuTNnu3FmqPK10mVoBZE4Mz5TvG9fJDW1ijV73WCWkqMww4i2KStAE_U7ffdW8YTXmyJM_b01=m18" alt="Noche en Primer Piso Bar" loading="lazy">
+                    <div class="gallery__item-overlay">
+                        <span>La Noche</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-header__label">La Gente Dice</span>
+                <h2 class="section-header__title">Lo que dicen los que vienen</h2>
+            </div>
+            
+            <div class="testimonials__rating animate-in">
+                <span class="testimonials__rating-number">3.6</span>
+                <div class="testimonials__rating-stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span class="testimonials__rating-half">★</span>
+                </div>
+                <span class="testimonials__rating-text">Basado en 163 reseñas</span>
+            </div>
+            
+            <div class="testimonials__grid">
+                <div class="testimonials__card animate-in">
+                    <div class="testimonials__card-header">
+                        <div class="testimonials__avatar">ML</div>
+                        <div class="testimonials__info">
+                            <h4 class="testimonials__name">Martín L.</h4>
+                            <span class="testimonials__date">hace 3 semanas</span>
+                        </div>
+                    </div>
+                    <div class="testimonials__stars">★★★★★</div>
+                    <p class="testimonials__text">"Típica cueva de rock. El sonido es aceptable y el ambiente es genuino. Si querés algo pulido, andá a otro lado. Si querés sentir la música de verdad, vení acá."</p>
+                </div>
+                
+                <div class="testimonials__card animate-in">
+                    <div class="testimonials__card-header">
+                        <div class="testimonials__avatar">CR</div>
+                        <div class="testimonials__info">
+                            <h4 class="testimonials__name">Carolina R.</h4>
+                            <span class="testimonials__date">hace 1 mes</span>
+                        </div>
+                    </div>
+                    <div class="testimonials__stars">★★★★☆</div>
+                    <p class="testimonials__text">"Buen lugar para ver bandas under. La verdad que la pasé genial. Sí, hace un poco de calor pero es parte de la onda. Los tragos están bien."</p>
+                </div>
+                
+                <div class="testimonials__card animate-in">
+                    <div class="testimonials__card-header">
+                        <div class="testimonials__avatar">DG</div>
+                        <div class="testimonials__info">
+                            <h4 class="testimonials__name">Diego G.</h4>
+                            <span class="testimonials__date">hace 2 meses</span>
+                        </div>
+                    </div>
+                    <div class="testimonials__stars">★★★★☆</div>
+                    <p class="testimonials__text">"Espacio bueno para presentaciones de bandas nuevas. El dueño es un tipazo y siempre hay buena vibra. Recomendable si te gusta el rock underground."</p>
+                </div>
+                
+                <div class="testimonials__card animate-in">
+                    <div class="testimonials__card-header">
+                        <div class="testimonials__avatar">AF</div>
+                        <div class="testimonials__info">
+                            <h4 class="testimonials__name">Ana F.</h4>
+                            <span class="testimonials__date">hace 2 semanas</span>
+                        </div>
+                    </div>
+                    <div class="testimonials__stars">★★★★★</div>
+                    <p class="testimonials__text">"Similar a lo que era Cemento en su momento pero más chico. La onda es genial, la gente va a escuchar música y a pasarlo bien. Sin vueltas."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia -->
+    <section class="history">
+        <div class="container">
+            <div class="history__grid">
+                <div class="history__content animate-in">
+                    <span class="section-header__label">Nuestra Historia</span>
+                    <h2 class="history__title">Un refugio para la música que importa</h2>
+                    <p class="history__text">Primer Piso Bar nació con una misión simple: crear un espacio donde la música underground tuviera un hogar. En el corazón del Microcentro porteño, entre las avenidas y el bullicio de la ciudad, armamos una cueva donde las bandas nuevas pueden tocar y la gente puede descubrir sonidos que no van a encontrar en ningún bar de cartón.</p>
+                    <p class="history__text">Somos un espacio chico, sí. Pero lo que nos falta en tamaño lo sobramos en energía. Acá no venís a sacarte una foto para Instagram (bueno, si querés también); venís a escuchar música en vivo, a tomar algo con amigos y a sentir que estás en parte de algo genuino.</p>
+                    <p class="history__text">El nombre viene de la dirección: Av. Rivadavia 1392, primer piso. Simple, directo, sin vueltas. Como todo lo que hacemos.</p>
+                </div>
+                
+                <div class="history__image animate-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlg_gakdoB5Z1-rdwIJCJMI47bNTCHDan6IWd_UPcIm6nP2w1YUWJ0dOXXrsOLXSF28-EGay58_y2KoMTyGWfrZM0uroei1wNaAwfdVim1xdJFP5wqZKJzXloHqUiHBgOdoAQqO6Cva2Q=s1360-w1360-h1020-rw" alt="Primer Piso Bar Balcón" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto / Reserva -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-header__label">Contacto</span>
+                <h2 class="section-header__title">Hacé tu reserva</h2>
+                <p class="section-header__subtitle">Escribinos y te armamos la noche</p>
+            </div>
+            
+            <div class="contact__grid">
+                <div class="contact__info animate-in">
+                    <div class="contact__item">
+                        <div class="contact__item-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="contact__item-title">Dirección</h4>
+                            <p class="contact__item-text">Av. Rivadavia 1392, C1033 AAQ<br>Microcentro, Buenos Aires</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__item">
+                        <div class="contact__item-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="contact__item-title">WhatsApp</h4>
+                            <a href="https://wa.me/5491157250961" class="contact__item-text contact__item-link" target="_blank" rel="noopener">011 5725-0961</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__item">
+                        <div class="contact__item-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="contact__item-title">Horarios</h4>
+                            <p class="contact__item-text">Viernes y Sábados<br>20:00 - 06:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__social">
+                        <a href="https://www.instagram.com/primerpisobar/?hl=es" class="contact__social-link" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/PRIMERPISOBAR/?locale=es_LA" class="contact__social-link" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact__form-container animate-in">
+                    <form class="contact__form" id="reservationForm">
+                        <div class="contact__form-group">
+                            <label for="name" class="contact__form-label">Nombre</label>
+                            <input type="text" id="name" name="name" class="contact__form-input" placeholder="Tu nombre" required>
+                        </div>
+                        
+                        <div class="contact__form-group">
+                            <label for="phone" class="contact__form-label">WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" class="contact__form-input" placeholder="Tu número de WhatsApp" required>
+                        </div>
+                        
+                        <div class="contact__form-row">
+                            <div class="contact__form-group">
+                                <label for="date" class="contact__form-label">Fecha</label>
+                                <input type="date" id="date" name="date" class="contact__form-input" required>
+                            </div>
+                            
+                            <div class="contact__form-group">
+                                <label for="guests" class="contact__form-label">Personas</label>
+                                <select id="guests" name="guests" class="contact__form-input" required>
+                                    <option value="">Cantidad</option>
+                                    <option value="1-2">1-2 personas</option>
+                                    <option value="3-4">3-4 personas</option>
+                                    <option value="5-6">5-6 personas</option>
+                                    <option value="7+">7+ personas</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__form-group">
+                            <label for="message" class="contact__form-label">Mensaje (opcional)</label>
+                            <textarea id="message" name="message" class="contact__form-input contact__form-textarea" placeholder="¿Algo especial que quieras decirnos?" rows="3"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                            Enviar por WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_r4rGugzYs8nJt2yLB38P4q6-GM_l-7_OSgzPJ5Vf5hfZZSBD-HUzkm8E&s=10" alt="Primer Piso Bar" class="footer__logo">
+                    <h3 class="footer__name">Primer Piso Bar</h3>
+                    <p class="footer__tagline">La noche tiene su propio piso</p>
+                </div>
+                
+                <div class="footer__info">
+                    <h4 class="footer__title">Visitanos</h4>
+                    <p class="footer__text">Av. Rivadavia 1392, C1033 AAQ<br>Microcentro, Buenos Aires, Argentina</p>
+                    <p class="footer__text">Viernes y Sábados<br>20:00 - 06:00</p>
+                </div>
+                
+                <div class="footer__contact">
+                    <h4 class="footer__title">Contacto</h4>
+                    <a href="tel:+5491157250961" class="footer__link">011 5725-0961</a>
+                    <a href="https://wa.me/5491157250961" class="footer__link" target="_blank" rel="noopener">WhatsApp</a>
+                </div>
+                
+                <div class="footer__social">
+                    <h4 class="footer__title">Seguinos</h4>
+                    <div class="footer__social-links">
+                        <a href="https://www.instagram.com/primerpisobar/?hl=es" class="footer__social-link" target="_blank" rel="noopener">Instagram</a>
+                        <a href="https://www.facebook.com/PRIMERPISOBAR/?locale=es_LA" class="footer__social-link" target="_blank" rel="noopener">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__map">
+                <iframe
+                    src="https://maps.google.com/maps?q=Av.+Rivadavia+1392+Microcentro+Buenos+Aires&output=embed"
+                    width="100%"
+                    height="350"
+                    style="border:0;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2026 Primer Piso Bar. Todos los derechos reservados.</p>
+                <a href="https://tuweben3dias.com" class="footer__credit" target="_blank" rel="noopener">Diseñado por tuweben3dias.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5491157250961?text=Hola! Quiero información sobre Primer Piso Bar" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        <span class="whatsapp-float__tooltip">¿Tenés dudas?</span>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
