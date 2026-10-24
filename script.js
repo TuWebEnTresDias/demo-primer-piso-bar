@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const whatsappUrl = `https://wa.me/5491157250961?text=${encodedMessage}`;
             
             // Open WhatsApp
-            window.open(whatsappUrl, '_blank');
+            window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
             
             // Reset form
             reservationForm.reset();
